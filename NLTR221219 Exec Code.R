@@ -1,4 +1,4 @@
-setwd("/Volumes/Server Files/Promotion/Newsletters/2022/12 December/Gender vs Pay/Analysis2_Execs")
+setwd("/___")
 
 
 ### Installing and Loading Packages
@@ -19,7 +19,7 @@ library("car")
 library("ggplot2")
 
 ### Setting Data
-data = as.data.frame(read_excel("/Volumes/Server Files/Promotion/Newsletters/2022/12 December/Gender vs Pay/Analysis2_Execs/NLTR221220 Gender vs Pay.xlsm", 
+data = as.data.frame(read_excel("/____", 
                                 sheet = "Benchmarking Data", range = "A2:BD550"))
 
 ### Summarising Data
